@@ -1,0 +1,19 @@
+package com.ThisKeywordCaseOne;
+
+public class CreateAccount {
+	int userId;
+    String fName;
+    String lName;
+    String email;
+    long contactNo;
+
+	public CreateAccount(int userId, String fName, String lName, String email, long contactNo) {
+		super();
+		this.userId = userId;
+		this.fName = fName;
+		this.lName = lName;
+		this.email = email;
+		this.contactNo = contactNo;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.dl.four;
+
+public class Bank {
+	Bank() {
+		System.out.println("Default Bank Constructor of the class");
+	}
+	public Bank(branch) {
+		this();
+		System.out.println(branch);
+		
+	}
+	
+	
+
+}

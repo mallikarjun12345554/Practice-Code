@@ -1,0 +1,20 @@
+package com.dl.three;
+
+public class Profile {
+	public void AddToCart() {
+		System.out.println("Products added to the cart");
+	}
+	public void get() {
+		System.out.println("Get the products");
+	}
+	public void Remove() {
+		System.out.println("Remove the products");
+	}
+
+	public static void main(String[] args) {
+		Profile pro = new Profile();
+		pro.AddToCart();
+		
+	}
+
+}

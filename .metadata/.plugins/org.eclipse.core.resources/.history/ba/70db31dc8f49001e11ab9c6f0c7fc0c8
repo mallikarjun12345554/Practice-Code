@@ -1,0 +1,36 @@
+package com.Multiple.and.Multilevel;
+interface MechanicalEngineering{
+	public void Branch();
+	
+}
+class College {
+	public void JBREC() {
+		System.out.println("Student studing in the college Joginapally B.R. Engineering College");
+	}
+}
+class Department extends College{
+	public void MechDepart() {
+		System.out.println("Department of Mechanical Engineering");
+	}
+}
+class Student extends Department implements MechanicalEngineering{
+	public void Candidate() {
+		System.out.println("Candidate as a Student choosen the Mechanical"
+				+ " Engineering in the college of JBREC ");
+	}
+
+	@Override
+	public void Branch() {
+		
+	}
+}
+
+public class Eg3 {
+	public static void main(String[] args) {
+		Student st = new Student();
+		st.JBREC();
+		st.Candidate();
+		st.MechDepart();
+	}
+
+}

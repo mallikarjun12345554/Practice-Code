@@ -1,0 +1,20 @@
+package com.dl.One;
+
+//Using the same variables for the instance variable and parameters has no effect
+
+public class CreateAccount {
+	int userId;
+	String fName;
+	String lName;
+	String email;
+	long contactNo;
+	String experience;
+	
+	public CreateAccount(){
+		userId = 
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package com.dl.four;
+
+public class Student {
+	public Student(){
+		System.out.println("Default student constructor");
+		}
+	
+	public Student(int Id){
+		this();
+		System.out.println("Student Identity: " +Id);
+	}
+
+	public static void main(String[] args) {
+           
+		new Student(101);
+		
+		
+	}
+
+}

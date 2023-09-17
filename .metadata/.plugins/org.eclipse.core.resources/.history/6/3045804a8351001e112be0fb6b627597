@@ -1,0 +1,36 @@
+package com.ThisKeywordCaseOne;
+
+public class CreateAccount {
+	int userId;
+    String fName;
+    String lName;
+    String email;
+    long contactNo;
+
+	public CreateAccount(int userId, String fName, String lName, String email, long contactNo) {
+		super();
+		this.userId = userId;
+		this.fName = fName;
+		this.lName = lName;
+		this.email = email;
+		this.contactNo = contactNo;
+		
+	}
+	
+	public void display() {
+		System.out.println(userId);
+		System.out.println(fName);
+		System.out.println(lName);
+		System.out.println(email);
+		System.out.println(contactNo);
+		
+	}
+	public static void main (String [] args) {
+		 new CreateAccount(6556454, "Sai", "Kumar", "ymallikarjun299@gmail.com", 65498454L);
+		
+		 
+		
+		
+	}
+
+}

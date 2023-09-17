@@ -1,0 +1,14 @@
+package com.dl.six;
+
+public class A {
+	int id = 10;
+	
+	public A() {
+          System.out.println("A");
+	}
+
+	public static void main(String[] args) {
+           new A();
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.dl.three;
+
+public interface ClientOne {
+
+}

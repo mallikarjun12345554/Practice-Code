@@ -1,0 +1,13 @@
+package com.explicit;
+
+public class Eg3 {
+
+	public static void main(String[] args) {
+            double d = 10.0d;
+            System.out.println(d);
+            
+            float f = (float)d;
+            System.out.println(f);
+	}
+
+}

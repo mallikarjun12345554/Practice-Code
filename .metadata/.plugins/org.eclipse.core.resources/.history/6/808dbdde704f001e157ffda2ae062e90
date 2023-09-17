@@ -1,0 +1,54 @@
+package com.SettersAndGetter;
+
+class Register{
+	private String fName;
+	private String lName;
+	private String gender;
+	private int age;
+	//setters and getters
+	public String getfName() {
+		return fName;
+	}
+	public void setfName(String fName) {
+		this.fName = fName;
+	}
+	public String getlName() {
+		return lName;
+	}
+	public void setlName(String lName) {
+		this.lName = lName;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}}
+public class RegisterImpl extends Register{
+	public static void main(String[] args) {
+		RegisterImpl register = new RegisterImpl();
+		register.setfName("Raghu");
+		register.setlName("Nandhan");
+		register.setGender("Male");
+		register.setAge(25);
+		
+		System.out.println(register.getfName());
+		System.out.println(register.getlName());
+		System.out.println(register.getGender());
+		System.out.println(register.getAge());
+	    
+	}
+}
+   
+	
+
+       
+	
+
+

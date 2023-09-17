@@ -1,0 +1,10 @@
+package com.dl.two;
+
+public class ClientOneImpl implements ClientOne {
+
+	public static void main(String[] args) {
+		System.out.println(ClientOneImpl.x);
+		System.out.println(ClientOneImpl.y);
+		System.out.println(ClientOneImpl.c);
+	}
+}

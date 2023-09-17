@@ -1,0 +1,35 @@
+package com.dl.One;
+
+//Using the same variables for the instance variables  and parameters has no effect
+
+public class CreateAccount {
+	int userId;
+	String fName;
+	String lName;
+	String email;
+	long contactNo;
+	String experience;
+	
+	public CreateAccount(int userId, String fName, String lName, String email, long contactNo, String experience){
+		userId = userId;//Has no effect
+		fName = fName;
+		lName = lName;
+		email = email;
+		contactNo = contactNo;
+		experience = experience;
+		
+    }
+	public void display() {
+		System.out.println(userId);
+		System.out.println(fName);
+		System.out.println(lName);
+		System.out.println(email);
+		System.out.println(experience);
+		
+	}
+	public static void main(String[] args) {
+		CreateAccount create = new CreateAccount();
+		create.display();
+	}
+
+}

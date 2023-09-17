@@ -1,0 +1,9 @@
+package Com.Super.and.This.Difference;
+
+public class A {
+
+	public static void main(String[] args) {
+
+	}
+
+}

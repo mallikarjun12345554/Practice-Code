@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.function.ToDoubleBiFunction"/>
+    <fullyQualifiedTypeName name="com.dl.classes.datatypes.Eg2"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="com.inheritance.Child"/>
+    <fullyQualifiedTypeName name="com.multilevel.Child"/>
+    <fullyQualifiedTypeName name="com.multiple.Main"/>
+    <fullyQualifiedTypeName name="com.singlelevel.Mainmethod"/>
+    <fullyQualifiedTypeName name="com.three.multiple.Main"/>
+    <fullyQualifiedTypeName name="com.four.Hierarchical.GrandFather.Child"/>
+    <fullyQualifiedTypeName name="com.one.singlelevel.Mainmethod"/>
+    <fullyQualifiedTypeName name="com.seven.hasa.OfficeDetails"/>
+    <fullyQualifiedTypeName name="com.seven.hasa.Employee"/>
+    <fullyQualifiedTypeName name="com.ConstructorOverloading.Eg1"/>
+    <fullyQualifiedTypeName name="com.dl.Constructor.ProfileImpl"/>
+    <fullyQualifiedTypeName name="com.dl.Constructor.Profile"/>
+    <fullyQualifiedTypeName name="com.SellaProductonTheDiscount.ProductImpl"/>
+    <fullyQualifiedTypeName name="com.SettersAndGetter.RegisterImpl"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="com.SuperKeywordMethod.A"/>
+    <fullyQualifiedTypeName name="com.SuperKeywordConstructor.A"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package com.dl.one;
+
+public class Client {
+
+	public static void main(String[] args) {
+             ClientOneImpl client = new ClientOneImpl();
+             client.m1();
+             client.m2();
+             client.m3();
+             client.m4();
+	}
+
+}

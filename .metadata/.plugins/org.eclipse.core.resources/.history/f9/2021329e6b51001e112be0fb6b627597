@@ -1,0 +1,19 @@
+package com.ThisKeywordCaseOne;
+
+public class Eg1 {
+	String Meka;
+	
+    
+    
+    
+    public void Mekapichal() {
+    	
+    	System.out.println("Meka pichal mentham kura");
+    }
+    public static void main(String[] args) {
+		Eg1 eg = new Eg1();
+		eg.Mekapichal();
+	}
+	
+
+}

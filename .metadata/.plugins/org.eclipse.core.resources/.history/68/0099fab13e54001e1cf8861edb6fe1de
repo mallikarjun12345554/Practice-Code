@@ -1,0 +1,23 @@
+package com.SuperKeywordVariables;
+
+public class C {
+	int a = 10;
+	int b = 20;
+}
+	class D extends C{
+		int z = 100;
+		int w = 200;
+		
+		public D(int z, int w) {
+			System.out.println(super.a);
+			System.out.println(super.b);
+			
+			System.out.println(this.z);
+			System.out.println(this.w);
+		}
+	
+	public static void main(String[] args) {
+		new D(1000, 2000);
+	}
+
+}
